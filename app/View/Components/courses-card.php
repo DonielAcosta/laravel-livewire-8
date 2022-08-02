@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class course-card extends Component
+class courses-card extends Component
 {
     /**
      * Create a new component instance.
@@ -19,10 +19,10 @@ class course-card extends Component
     /**
      * Get the view / contents that represent the component.
      *
-     * @return \Illuminate\Contracts\View\View|string
+     * @return \Illuminate\Contracts\View\View|\Closure|string
      */
     public function render()
     {
-        return view('components.course-card');
+        return view('components.courses-card');
     }
 }
